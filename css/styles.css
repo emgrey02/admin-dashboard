@@ -28,10 +28,9 @@ button {
 }
 
 .profile-img {
-  background-image: url("/icons/haeWHAT.jpg");
-  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 30rem;
-  border: 1px solid black;
 }
 
 nav {
